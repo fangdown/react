@@ -91,7 +91,7 @@ module.exports = {
   getAlias() {
     return {
       'react-native': 'react-native-web',
-      '@modules': path.resolve('paths.appSrc', 'modules'),
+      '@modules': path.resolve(paths.appSrc, 'modules'),
       '@common': path.resolve(paths.appSrc, 'common'),
       '@main': path.resolve(paths.appSrc, 'main'),
       '@utils': path.resolve(paths.appSrc, 'utils'),

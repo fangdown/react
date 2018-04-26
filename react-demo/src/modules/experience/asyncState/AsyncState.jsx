@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
-class AsyncSetState extends Component {
+class AsyncState extends Component {
   constructor() {
     super();
     this.state = {
       num: 0,
-      name: 'fang',
     };
   }
   componentDidMount = () => {
@@ -31,4 +30,4 @@ class AsyncSetState extends Component {
     );
   }
 }
-export default AsyncSetState;
+export default AsyncState;
